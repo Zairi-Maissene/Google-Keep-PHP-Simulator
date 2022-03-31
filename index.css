@@ -1,0 +1,30 @@
+.container:hover {
+  border: 2px solid black;
+}
+/* .container::after {
+  content: "";
+  display: block;
+  background-color: black;
+  width: 0%;
+  height: 8px;
+}
+.container:hover::after {
+  width: 100%;
+}*/
+.container {
+  margin-bottom: 2rem;
+}
+.Edit-btn {
+  display: none;
+}
+.container:hover .Edit-btn {
+  display: block;
+}
+.note {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.full-note {
+  word-wrap: break-word;
+}
